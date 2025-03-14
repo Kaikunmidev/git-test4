@@ -1,0 +1,227 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.omletteImg{
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+.container{
+  background-color: hsl(30, 54%, 90%);
+  height: 100%;
+}
+/* .main{
+  background-color:  hsl(0, 0%, 100%);
+} */
+.main{
+  padding: 30px 120px ;
+}
+.omletteCard{
+  background-color:  hsl(0, 0%, 100%);
+  padding: 40px 0px 40px 0px;
+  border-radius: 15px;
+
+}
+.simpleRecipe{
+  padding: 0px 40px 0px 90px;
+  margin-top: 30px;
+}
+.simpleRecipe h1{
+  font-size: 55px;
+}
+.smallNote{
+  margin-top: 20px;
+  width: 85%;
+  line-height: 25px;
+  color: hsl(30, 10%, 34%);
+  font-size: 20px;
+}
+.prep{
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.prep h4{
+  color:  hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+
+.prep span{
+  font-weight: bold;
+}
+
+.blackBullets {
+  list-style-type: none; 
+  padding-left: 20px; 
+  line-height: 30px;
+}
+
+.blackBullets li::before {
+  content: ''; 
+  width: 5px; 
+  height: 5px; 
+  border-radius: 50%; 
+  background-color:  hsl(332, 51%, 32%);
+  display: inline-block; 
+  justify-content: center;
+  margin-right: 20px; 
+  vertical-align: middle; 
+}
+.ingrdient h2{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: hsl(14, 45%, 36%);
+}
+
+.brownBullets {
+  list-style-type: none; 
+  padding-left: 20px; 
+  line-height: 30px;
+}
+
+.brownBullets li::before {
+  content: ''; 
+  width: 5px; 
+  height: 5px; 
+  border-radius: 50%; 
+  background-color: hsl(14, 45%, 36%);
+  display: inline-block; 
+  justify-content: center;
+  margin-right: 20px; 
+  vertical-align: middle; 
+}
+.line {
+  border: none; 
+  border-top: 1px solid  hsl(30, 10%, 34%);
+  width: 100%; 
+  margin: 20px 0; 
+}
+
+.numbers li{
+  list-style-type: decimal;
+  font-size: 15px;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+  width: 550px;
+}
+.numbers li::before{
+  content: ''; 
+  margin-right: 20px; 
+
+}
+
+.numbers  {
+  margin-top: 10px;
+  padding-left: 20px;
+
+
+}
+
+.numbers span {
+  font-weight: bold;
+  color: black; 
+}
+.instructions h2{
+  color: hsl(14, 45%, 36%);
+}
+.numbers li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold; 
+  font-size: 18px; 
+}
+ol li{
+  /* margin-left: 20px; */
+}
+.names{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  width: 500px;
+  margin-top: 20px;
+}
+
+.lines{
+  border: none; 
+  border-top: 1px solid  hsl(30, 10%, 34%);
+  width: 100%; 
+  margin-top: 5px;
+  /* margin: 20px 0;  */
+}
+
+.nutrition h2{
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 20px;
+
+}
+.nutrition p{
+  color: hsl(30, 10%, 34%);
+  
+}
+.names span{
+  color:  hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.names p{
+  margin-left: 25px;
+}
+
+/* @media (min-width: 300px)  {
+  .simpleRecipe h1{
+    font-size: 30px;
+  }
+
+.container{
+  background-color: transparent;
+  max-width: 100%;
+}
+.numbers li{
+  width: 100px;
+}
+.main{
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+}
+.omletteCard{
+  margin: 0 auto;
+  /* display: flex; */
+  /* align-items: center;
+  padding: 0 20px 0 20px;
+}
+.omletteImg{
+  width: 100%;
+  max-width: fit-content;
+}
+.simpleRecipe p{
+  margin-top: 20px;
+  width: 300px;
+  line-height: 25px;
+  color: hsl(30, 10%, 34%);
+  font-size: 20px;
+}
+.prep{
+width: 250px;
+} */
+
+@media (min-width : 375px){
+  .numbers li{
+    width: 100%;
+  }
+  .names{
+    width: 100%;
+  }
+  .simpleRecipe h1{
+    font-size: 30px;
+  }
+  .container{
+    /* background-color: white; */
+  }
+  .main{
+    padding: 20px;
+  }
+}
